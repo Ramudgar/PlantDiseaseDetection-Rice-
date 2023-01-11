@@ -68,24 +68,24 @@ unknown_w = """
 
 class0 = """
 <div class="alert alert-success" role="alert">
-  Result:  <b> Cassava Bacterial Blight disease (CBB)  </b>
+  Result:  <b> Bacterial Blight disease  </b>
 </div>
 """
 class1 = """
 <div class="alert alert-success" role="alert">
-  Result:  <b> Cassava Brown Streak Disease (CBSD) </b>
+  Result:  <b>  Brown Streak Disease  </b>
 </div>
 """
 
 class2 = """
 <div class="alert alert-success" role="alert">
-  Result:  <b> Cassava Green Mottle disease (CGM)  </b>
+  Result:  <b>  Green Mottle disease  </b>
 </div>
 """
 
 class3 = """
 <div class="alert alert-success" role="alert">
-  Result:  <b> Cassava Mosaic Disease (CMD) </b>
+  Result:  <b> Cassava Mosaic Disease  </b>
 </div>
 """
 
@@ -106,21 +106,21 @@ more_options = """
 
 
 class0_side = """<div class="alert alert-info" role="alert">
- Result:  <b> Cassava Bacterial Blight disease (CBB) </b>
+ Result:  <b> Bacterial Blight disease  </b>
  </div>
 """
 
 class1_side = """<div class="alert alert-info" role="alert">
- Result:  <b> Cassava Brown Streak Disease (CBSD) </b>
+ Result:  <b>  Brown Streak Disease </b>
  </div>
 """
 
 class2_side = """<div class="alert alert-info" role="alert">
- Result:  <b> Cassava Green Mottle disease (CGM) </b>
+ Result:  <b>  Green Mottle disease  </b>
  </div>
 """
 class3_side = """<div class="alert alert-info" role="alert">
- Result:  <b> Cassava Mosaic Disease (CMD) </b>
+ Result:  <b>  Mosaic Disease  </b>
  </div>
 """
 

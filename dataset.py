@@ -84,10 +84,10 @@ def get_transforms(*, data):
 
 
 labels = [
-    "Cassava Bacterial Blight (CBB)",
-    "Cassava Brown Streak Disease (CBSD)",
-    "Cassava Green Mottle (CGM)",
-    "Cassava Mosaic Disease (CMD)",
+    "Bacterial Blight ",
+    "Brown Streak Disease  ",
+    "Green Mottle  ",
+    " Mosaic Disease  ",
     "Healthy",
 ]
 classes_map = {"class_name": labels}
