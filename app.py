@@ -43,7 +43,7 @@ gc.enable()
 st.set_option("deprecation.showfileUploaderEncoding", False)
 
 # Set App title
-st.title("Cassava disease prediction Web App")
+st.title("Computer based solution for rice plant disease prediction")
 
 
 # Set the directory path
@@ -62,10 +62,10 @@ st.sidebar.image(banner_path, use_column_width=True)
 
 # App description
 st.write(
-    "The app predicts diseases in Cassava plants. The model was trained with the [cassava leaf disease dataset on Kaggle](https://www.kaggle.com/c/cassava-leaf-disease-classification/data). "
+    "The app predicts diseases in rice plants. The model was trained with the [rice leaves disease dataset on Kaggle](https://www.kaggle.com/datasets/shayanriyaz/riceleafs). "
 )
 st.write(
-    "**For more info:** [Blog Post](https://aminey.medium.com/how-to-train-ml-models-with-mislabeled-data-cf4bb353b3d9?sk=9f4ce905cd5c4f2d86ec3bf7b93d024c) **|** **Code:** [Github repository](https://github.com/Amiiney/cld-app-streamlit) **|**"
+    ""
 )
 st.markdown("***")
 
@@ -169,21 +169,21 @@ def deploy(file_path=None, uploaded_image=uploaded_image, uploaded=False, demo=T
             if pred_idx[0] == 0:
                 st.markdown(class0, unsafe_allow_html=True)
                 st.sidebar.markdown(class0_side, unsafe_allow_html=True)
-                st.write(" The predicted class is: **Cassava Bacterial Blight (CBB)**")
+                st.write(" The predicted class is: ** Bacterial Blight**")
             elif pred_idx[0] == 1:
                 st.markdown(class1, unsafe_allow_html=True)
                 st.sidebar.markdown(class1_side, unsafe_allow_html=True)
                 st.write(
-                    "The predicted class is: **Cassava Brown Streak Disease (CBSD)**"
+                    "The predicted class is: ** Brown Spot Disease**"
                 )
             elif pred_idx[0] == 2:
                 st.markdown(class2, unsafe_allow_html=True)
                 st.sidebar.markdown(class2_side, unsafe_allow_html=True)
-                st.write("The predicted class is: **Cassava Green Mottle (CGM)**")
+                st.write("The predicted class is: ** Sheath Blight Disease **")
             elif pred_idx[0] == 3:
                 st.markdown(class3, unsafe_allow_html=True)
                 st.sidebar.markdown(class3_side, unsafe_allow_html=True)
-                st.write("The predicted class is: **Cassava Mosaic Disease (CMD)**")
+                st.write("The predicted class is: **Tungro Disease **")
             elif pred_idx[0] == 4:
                 st.markdown(class4, unsafe_allow_html=True)
                 st.sidebar.markdown(class4_side, unsafe_allow_html=True)
