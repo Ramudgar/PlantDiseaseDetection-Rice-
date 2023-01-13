@@ -73,19 +73,19 @@ class0 = """
 """
 class1 = """
 <div class="alert alert-success" role="alert">
-  Result:  <b>  Brown Streak Disease  </b>
+  Result:  <b>  Brown Spot Disease  </b>
 </div>
 """
 
 class2 = """
 <div class="alert alert-success" role="alert">
-  Result:  <b>  Green Mottle disease  </b>
+  Result:  <b>  Blast disease  </b>
 </div>
 """
 
 class3 = """
 <div class="alert alert-success" role="alert">
-  Result:  <b> Cassava Mosaic Disease  </b>
+  Result:  <b> Sheath Blight Disease  </b>
 </div>
 """
 
@@ -94,6 +94,7 @@ class4 = """
   Result:  <b> Healthy </b>
 </div>
 """
+
 
 image_uploaded_success = """
 <div class="alert alert-success" role="alert">
@@ -111,16 +112,16 @@ class0_side = """<div class="alert alert-info" role="alert">
 """
 
 class1_side = """<div class="alert alert-info" role="alert">
- Result:  <b>  Brown Streak Disease </b>
+ Result:  <b>  Brown Spot Disease </b>
  </div>
 """
 
 class2_side = """<div class="alert alert-info" role="alert">
- Result:  <b>  Green Mottle disease  </b>
+ Result:  <b>  Sheath Blight Disease  </b>
  </div>
 """
 class3_side = """<div class="alert alert-info" role="alert">
- Result:  <b>  Mosaic Disease  </b>
+ Result:  <b>  Blast Disease  </b>
  </div>
 """
 
